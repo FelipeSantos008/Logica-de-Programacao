@@ -14,6 +14,18 @@ void setup()
 
 void loop()
 {
+   Serial.println("|------------------------------|");
+  Serial.println("|                              |");
+  Serial.println("|                              |");
+  Serial.println("|         LOPAL-EX02           |");
+  Serial.println("|                              |");
+  Serial.println("|                              |");
+  Serial.println("|------------------------------|");
+
+
+  Serial.println();//pula um linha
+    Serial.println();//pula um linha
+
   Serial.println("Digite o seu nome");
     while (! Serial.available ());
     nome = Serial.readString();

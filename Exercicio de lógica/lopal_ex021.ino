@@ -17,10 +17,29 @@ void setup()
 
 void loop()
 {
+  
+  //cabeçalho
+  Serial.println("|------------------------------|");
+  Serial.println("|                              |");
+  Serial.println("|                              |");
+  Serial.println("|         LOPAL-EX02           |");
+  Serial.println("|                              |");
+  Serial.println("|                              |");
+  Serial.println("|------------------------------|");
+
+
+  Serial.println();//pula um linha
+    Serial.println();//pula um linha
+
+  
+  
   //entrada
   Serial.println ("Digite o seu ano de nascimento");
   while (! Serial.available() );
-  anoNascimento = Serial.parseInt();
+  anoNascimento = Serial.parseInt(); 
+  
+  Serial.println();//pula um linha
+    Serial.println();//pula um linha
   
   Serial.println("Digite o ano atual");
   while (! Serial.available() );

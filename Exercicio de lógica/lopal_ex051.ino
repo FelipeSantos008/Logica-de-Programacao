@@ -10,7 +10,20 @@ void setup()
 }
 
 void loop()
-{
+{ 
+  Serial.println("|------------------------------|");
+  Serial.println("|                              |");
+  Serial.println("|                              |");
+  Serial.println("|         LOPAL-EX02           |");
+  Serial.println("|                              |");
+  Serial.println("|                              |");
+  Serial.println("|------------------------------|");
+
+
+  Serial.println();//pula um linha
+    Serial.println();//pula um linha
+
+  
   Serial.println("Digite uma medida(cm)");
   while (! Serial.available ());
   cm = Serial.parseInt();
